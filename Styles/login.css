@@ -109,6 +109,19 @@ body{
   transform: scale(1.1);
 }
 
+.iconos img{
+  padding: 5px;
+  width: 45px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.iconos img:hover{
+  transform: scale(1.1);
+}
+
+
+
 @media (max-width:425px) {
   
   .form__title{
