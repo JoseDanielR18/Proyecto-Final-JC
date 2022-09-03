@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.animate__fadeInDown{
+  --animate-duration: 2s;
+}
+
 body{
   background-image: url(../Images/fondo.jpg);
   background-position: center center;
