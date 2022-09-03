@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../Images/fondo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#registro{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.text{
+  color: #fff;
+  margin: auto;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.text h2{
+  text-align: center;
+}
+
+.form{
+  background-color: rgba(255, 255, 255, 0.932);
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+  padding: 45px;
+  border-radius: 10px;
+  box-shadow:  0 5px 10px 2px rgba(0 0 0 / 30%);
+  text-align: center;
+}
+
+.form__title{
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.form__paragraph{
+  font-weight: 300;
+}
+
+.form__link{
+  font-weight: 400;
+  color: black;
+  text-decoration:none;
+}
+
+.form__link:hover{
+  text-decoration-line:underline;
+}
+
+.form__container{
+  margin-top: 3em;
+  display: grid;
+  gap: 2.5em;
+}
+
+.form__group{
+  position: relative;
+}
+
+.form__input{
+  width: 100%;
+  color: #706c6c;
+  font-size: 1rem;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.534);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.form__label{
+  color: rgba(0, 0, 0, 0.534);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transition: transform .5s;
+}
+
+.form__input:focus + .form__label, .form__input:not(:placeholder-shown) + .form__label{
+  transform: translateY(-14px) scale(.8);
+  color: black;
+}
+
+.form__submit{
+  background-color: black;
+  color: #fff;
+  font-family:sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 300ms ease;
+}
+
+.form__submit:hover{
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width:871px) {
+  
+  .form__title{
+    *font-size: 25px;
+  }
+
+  .text{
+    font-size: 20px;
+    padding: 30px 5px;
+  }
+
+  .text h1, h2{
+    text-align: center;
+  }
+
+  #registro{
+    display: grid;
+  }
+
+
+
+}
