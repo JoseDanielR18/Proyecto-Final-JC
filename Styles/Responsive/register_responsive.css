@@ -1,0 +1,20 @@
+@media (max-width:871px) {
+  
+  .form__title{
+    *font-size: 25px;
+  }
+
+  .text{
+    font-size: 20px;
+    padding: 30px 5px;
+  }
+
+  .text h1, h2{
+    text-align: center;
+  }
+
+  #registro{
+    display: grid;
+  }
+
+}
