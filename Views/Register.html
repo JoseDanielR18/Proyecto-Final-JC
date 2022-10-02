@@ -12,52 +12,52 @@
 </head>
 <body>
   <div class="animate__animated animate__fadeInDown">
-  <div id="registro">
-    <div class="text">
-        <h1>cambia tu futuro</h1>
-        <h2>regístrate ¡ya!</h2>
-    </div>
-    <form class="form">
-      <h2 class="form__title">Registrate</h2>
-      <p class="form__paragraph">¿Ya tienes una cuenta? <a href="Login.html" class="form__link">Entra aquí</a></p>
-
-      <div class="form__container">
-        <div class="form__group">
-          <input type="text" id="name" class="form__input" placeholder=" ">
-          <label for="name" class="form__label">Nombre:</label>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group">
-          <input type="text" id="last-name" class="form__input" placeholder=" ">
-          <label for="last-name" class="form__label">Apellido:</label>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group">
-          <input type="email" id="email" class="form__input" placeholder=" ">
-          <label for="email" class="form__label">Gmail:</label>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group">
-          <input type="text" id="user" class="form__input" placeholder=" ">
-          <label for="user" class="form__label">Usuario:</label>
-          <span class="form__line"></span>
-        </div>
-        <div class="form__group">
-          <input type="password" id="password" class="form__input" placeholder=" ">
-          <label for="password" class="form__label">Contraseña:</label>
-          <span class="form__line"></span>
-        </div>
-        <a href="Login.html" class="form__submit">Registrarse</a>
-        <div class="iconos">
-          <p>Nuestras redes:</p>
-          <a href="https://github.com/JoseDanielR18" target="_blank"><img src="../Assets/git.svg" alt="git.com"></a>
-          <img src="../Assets/facebook.svg" alt="facebook.com">
-          <img src="../Assets/instagram.svg" alt="instagram.com">
-          <img src="../Assets/twitter.svg" alt="twitter.com">
-        </div>
+    <div id="registro">
+      <div class="text">
+          <h1>cambia tu futuro</h1>
+          <h2>regístrate ¡ya!</h2>
       </div>
-   </form>
-  </div>
+      <form action="./Login.html" class="form">
+        <h2 class="form__title">Registrate</h2>
+        <p class="form__paragraph">¿Ya tienes una cuenta? <a href="Login.html" class="form__link">Entra aquí</a></p>
+
+        <div class="form__container">
+          <div class="form__group">
+            <input type="text" id="name" class="form__input" placeholder=" " minlength="2">
+            <label for="name" class="form__label">Nombre:</label>
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group">
+            <input type="text" id="last-name" class="form__input" placeholder=" " minlength="2">
+            <label for="last-name" class="form__label">Apellidos:</label>
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group">
+            <input type="email" id="email" class="form__input" placeholder=" ">
+            <label for="email" class="form__label">Gmail:</label>
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group">
+            <input type="text" id="user" class="form__input" placeholder=" " minlength="2" maxlength="20">
+            <label for="user" class="form__label">Usuario:</label>
+            <span class="form__line"></span>
+          </div>
+          <div class="form__group">
+            <input type="password" id="password" class="form__input" placeholder=" ">
+            <label for="password" class="form__label">Contraseña:</label>
+            <span class="form__line"></span>
+          </div>
+          <input type="submit" value="Registrarse" class="form__submit">
+          <div class="iconos">
+            <p>Nuestras redes:</p>
+            <a href="https://github.com/JoseDanielR18" target="_blank"><img src="../Assets/git.svg" alt="git.com"></a>
+            <img src="../Assets/facebook.svg" alt="facebook.com">
+            <img src="../Assets/instagram.svg" alt="instagram.com">
+            <img src="../Assets/twitter.svg" alt="twitter.com">
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 
 </body>
