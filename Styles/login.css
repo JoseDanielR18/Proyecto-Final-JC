@@ -1,33 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.animate__fadeInDown{
+.animate__fadeInDown {
   --animate-duration: 2s;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
-#fondo{
+#fondo {
   background-image: url(../Images/fondo.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#login{
+#login {
   display: flex;
   min-height: 100vh;
   background-color: rgba(0, 0, 0, 0.514);
 }
 
-.form{
+.form {
   background-color: rgb(255, 255, 255);
   margin: auto;
   width: 90%;
@@ -38,36 +38,36 @@ body{
   text-align: center;
 }
 
-.form__title{
+.form__title {
   font-size: 2rem;
   margin-bottom: 12px;
 }
 
-.form__paragraph{
+.form__paragraph {
   font-weight: 300;
 }
 
-.form__link{
+.form__link {
   font-weight: 400;
   color: black;
   text-decoration:none;
 }
 
-.form__link:hover{
-  text-decoration-line:underline;
+.form__link:hover {
+  text-decoration-line: underline;
 }
 
-.form__container{
+.form__container {
   margin-top: 3em;
   display: grid;
   gap: 2.5em;
 }
 
-.form__group{
+.form__group {
   position: relative;
 }
 
-.form__input{
+.form__input {
   width: 100%;
   color: #706c6c;
   font-size: 1rem;
@@ -79,7 +79,7 @@ body{
   background-color: rgba(255, 255, 255, 0);
 }
 
-.form__label{
+.form__label {
   color: rgba(0, 0, 0, 0.534);
   cursor: pointer;
   position: absolute;
@@ -88,12 +88,12 @@ body{
   transition: transform .5s;
 }
 
-.form__input:focus + .form__label, .form__input:not(:placeholder-shown) + .form__label{
+.form__input:focus + .form__label, .form__input:not(:placeholder-shown) + .form__label {
   transform: translateY(-14px) scale(.8);
   color: black;
 }
 
-.form__submit{
+.form__submit {
   background-color: black;
   color: #fff;
   font-family:sans-serif;
@@ -105,17 +105,17 @@ body{
   transition: all 300ms ease;
 }
 
-.form__submit:hover{
+.form__submit:hover {
   transform: scale(1.1);
 }
 
-.iconos img{
+.iconos img {
   padding: 5px;
   width: 45px;
   cursor: pointer;
   transition: all 300ms ease;
 }
 
-.iconos img:hover{
+.iconos img:hover {
   transform: scale(1.1);
 }
