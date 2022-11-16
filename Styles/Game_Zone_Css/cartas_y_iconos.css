@@ -1,0 +1,42 @@
+/* CONTENEDOR DE CARTAS Y ICONOS */
+
+#contenedor-cartas-bootstrap-clientes {
+  max-width: 100%;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 50px;
+  padding-top: 90px;
+}
+
+.iconos-clientes-fotos {
+  display: flex;
+  justify-content: center;
+}
+
+.iconos-clientes-fotos img {
+  width: 70px;
+  height: 70px;
+  margin: 35px;
+  opacity: 0.65;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 500ms;
+}
+
+.iconos-clientes-fotos img:hover {
+  opacity: 100;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.contenedor-slider {
+  margin: auto;
+  margin-top: 50px;
+  width: 430px;
+  transition: all 300ms ease;
+}
+
+.contenedor-slider img {
+  height: 35vh;
+}
