@@ -1,0 +1,22 @@
+/* RESPONSIVE VIDEO */
+
+@media screen and (max-width: 1326px) {
+  .contenido h1 {
+    font-size: 55px;
+  }
+
+  .contenido p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 750PX) {
+  .contenido h1 {
+    font-size: 45px;
+  }
+
+  .contenido p {
+    font-size: 17px;
+    width: 90%;
+  }
+}

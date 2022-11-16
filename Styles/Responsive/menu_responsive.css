@@ -1,0 +1,57 @@
+/* RESPONSIVE MENU */
+
+@media screen and (max-width: 860px) {
+  .checkbtn {
+    display: flex;
+    margin: auto;
+  }
+
+  .menu ul {
+   position: fixed;
+   width: 100%;
+   padding-left: 0px;
+   padding-left: 0px;
+   background-color: #ffffff;
+   box-shadow: 4px 14px 24px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+   top: 80px;
+   left: -100%;
+   text-align: center;
+   transition: all .5s;
+   display: inline-table;
+   z-index: 100;
+  }
+
+  .menu ul li {
+    display: block;
+    margin: 10px 0;
+    line-height: 30px;
+  }
+
+  .menu ul li a {
+    font-size: 18px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  } 
+}
+
+@media screen and (max-width: 600px) {
+  .logo img {
+    width: 55px;
+  }
+  
+  .inicio-sesion a{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .logo img {
+    width: 45px;
+  }
+  
+  .inicio-sesion a{
+    font-size: 10px;
+  }
+}

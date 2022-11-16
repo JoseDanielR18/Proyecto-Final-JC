@@ -1,0 +1,70 @@
+/* SECCION DE UNETE A NOSOTROS RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+  .contenido-3 {
+    display: grid;
+    justify-items: center;
+    padding-top: 80px;
+  }
+
+  .contenido-3 img {
+    width: 350px;
+  }
+
+  .contenido-texto-3 {
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .contenido-texto-3 h1 {
+    text-align: center;
+  }
+
+  .contenido-texto-3 p {
+    text-align: justify;
+  }
+
+  .boton {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contenido-3 img {
+    width: 300px;
+  }
+
+  .contenido-texto-3 p {
+    font-size: 14px;
+  }
+
+  .boton {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contenido-texto-3 {
+    width: 70%;
+  }
+
+  .contenido-3 img {
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contenido-texto-3 {
+    width: 80%;
+  }
+
+  .contenido-texto-3 p {
+    font-size: 13px;
+  }
+
+  .contenido-3 img {
+    width: 270px;
+  }
+}

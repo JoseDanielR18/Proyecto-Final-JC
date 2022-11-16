@@ -1,0 +1,71 @@
+/* PIE DE PAGINA RESPONSIVE */
+
+@media screen and (max-width: 850px) {
+  .contenedor-footer {
+    display: grid;
+  }
+
+  .contenido-footer-text p {
+    width: 350px;
+  }
+
+  .contenido-footer-text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .imagenes-redes ul, li{
+    display: flex;
+    justify-content: center;
+    padding-right: 7px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contenido-footer-text p {
+    font-size: 14px;
+  }
+
+  .logo-footer h3 {
+    font-size: 17px;
+  }
+
+  .logo-footer img {
+    width: 95px;
+  }
+
+  .contenedor-footer h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .contenido-footer-text p {
+    font-size: 13px;
+    width: 300px;
+  }
+
+  .logo-footer img {
+    width: 85px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .contenido-footer-text p {
+    font-size: 13px;
+    width: 200px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .contenido-footer-text p {
+    font-size: 12px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .imagenes-redes img {
+    width: 35px;
+  }
+}
