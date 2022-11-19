@@ -120,3 +120,42 @@ body {
 .iconos img:hover {
   transform: scale(1.1);
 }
+
+.texto {
+  display: none;
+}
+
+
+/* CLASES EN CASO DE QUE EL FORMULARIO ESTE INCORRECTO */
+
+.form__input-error {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+.form__input-error:focus + .form__label-error, .form__input-error:not(:placeholder-shown) + .form__label-error {
+  color: red;
+}
+
+.form__label-error {
+  color: red;
+}
+
+.texto-error {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: left;
+  color: red;
+}
+
+.form__submit-desactivar {
+  background-color: rgba(0, 0, 0, 0.479);
+  border: none;
+  cursor:auto;
+  transition: none;
+}
+
+.form__submit-desactivar:hover {
+  transform: none;
+}

@@ -18,37 +18,35 @@
           <h1>cambia tu futuro</h1>
           <h2>regístrate ¡ya!</h2>
       </div>
-      <form action="./Login.html" class="form">
+      <form action="./Login.html" class="form" id="formulario">
         <h2 class="form__title">Regístrate</h2>
         <p class="form__paragraph">¿Ya tienes una cuenta? <a href="Login.html" class="form__link">Entra aquí</a></p>
 
         <div class="form__container">
           <div class="form__group">
-            <input type="text" id="name" class="form__input" placeholder=" " minlength="2" required>
-            <label for="name" class="form__label">Nombre:</label>
-            <span class="form__line"></span>
+            <input type="text" id="name" class="form__input" name="nombre" placeholder=" " minlength="2" maxlength="30" required>
+            <label for="name" id="nombre" class="form__label">Nombre:</label>
+            <p id="texto-nombre" class="texto">Ingrese su nombre sin caracteres especiales ni números</p>
           </div>
           <div class="form__group">
-            <input type="text" id="last-name" class="form__input" placeholder=" " minlength="2" required>
-            <label for="last-name" class="form__label">Apellidos:</label>
-            <span class="form__line"></span>
+            <input type="text" id="last-name" class="form__input" name="apellidos" placeholder=" " minlength="2" required>
+            <label for="last-name" id="apellido" class="form__label">Apellidos:</label>
+            <p id="texto-apellido" class="texto">Ingrese su apellido sin caracteres especiales ni números</p>
           </div>
           <div class="form__group">
-            <input type="email" id="email" class="form__input" placeholder=" " required>
+            <input type="email" id="email" class="form__input" name="correo" placeholder=" " required>
             <label for="email" class="form__label">Email:</label>
-            <span class="form__line"></span>
           </div>
           <div class="form__group">
-            <input type="text" id="user" class="form__input" placeholder=" " minlength="2" maxlength="20" required>
-            <label for="user" class="form__label">Usuario:</label>
-            <span class="form__line"></span>
+            <input type="text" id="user" class="form__input" name="usuario" placeholder=" " minlength="2" maxlength="16" required>
+            <label for="user" id="usuario" class="form__label">Usuario:</label>
+            <p id="texto-usuario" class="texto">Su nombre de usuario solo puede contener guiones, guiones bajos y números</p>
           </div>
           <div class="form__group">
-            <input type="password" id="password" class="form__input" placeholder=" " minlength="8" required>
+            <input type="password" id="password" class="form__input" name="contraseña" placeholder=" " minlength="8" required>
             <label for="password" class="form__label">Contraseña:</label>
-            <span class="form__line"></span>
           </div>
-          <input type="submit" value="Registrarse" class="form__submit">
+          <input type="submit" value="Registrarse" class="form__submit" id="entrar">  
           <div class="iconos">
             <p>Nuestras redes:</p>
             <a href="https://github.com/JoseDanielR18" target="_blank"><img src="../Assets/git.svg" alt="git.com"></a>
@@ -61,5 +59,6 @@
     </div>
   </div>
 
+<script src="../Scripts/validacion_formulario.js"></script>
 </body>
 </html>

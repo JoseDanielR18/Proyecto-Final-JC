@@ -1,0 +1,74 @@
+#banner {
+  background-image: url(../../Images/programming-cursos.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.capa {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.568);
+}
+
+.contenido {
+  margin: 0;
+  padding: 0;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+}
+
+.texto {
+  text-align: center;
+  margin: auto;
+  max-width: 70%;
+}
+
+.texto h1 {
+  font-size: 55px;
+}
+
+.texto p{
+  font-size: 24px;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 700px) {
+  .texto h1 {
+    font-size: 45px;
+  }
+  
+  .texto p{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .texto h1 {
+    font-size: 35px;
+  }
+  
+  .texto p{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .texto h1 {
+    font-size: 25px;
+  }
+  
+  .texto p{
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Styles/Game_Zone_cursos_css/menu_cursos.css">
+  <link rel="stylesheet" href="../Styles/Responsive/menu_responsive.css">
+  <link rel="stylesheet" href="../Styles/Game_Zone_cursos_css/banner_cursos.css">
+  <link rel="stylesheet" href="../Styles/Game_Zone_cursos_css/cursos.css">
+  <link rel="stylesheet" href="../Styles/Game_Zone_Css/pie_pagina.css">
+  <link rel="shortcut icon" href="../Assets/icono1.svg" type="image/x-icon">
+  <script src="../Scripts/guardado_local_storage.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <title>Cursos Game Zone Technologies</title>
+</head>
+<body>
+
+  <header>
+    <nav  class="menu">
+      <div class="logo">
+        <a href="./GameZone.html" target="_blank"><img src="../Assets/icono2.svg" alt="logo"></a>
+      </div>
+      <label for="check" class="checkbtn">
+        <img src="../Assets/menu.svg" alt="menu">
+      </label>
+      <input type="checkbox" id="check">
+       <ul>
+         <li><a href="#" class="efecto">Inicio</a></li>
+         <li><a href="#cursos" class="efecto">Cursos</a></li>
+         <li><a href="#precios" class="efecto">Planes</a></li>
+       </ul>
+     </nav>
+     <div class="inicio-sesion">
+       <ul>
+         <li><img src="../Images/icono_perfil.png" alt="perfil"></li>
+         <li id="usuario"></li>
+         <li><a href="./Login.html" class="boton-2">Cierra Sesión</a></li>
+       </ul>
+     </div>
+  </header> 
+
+  <div id="banner">
+    <div class="capa">
+      <div class="contenido">
+        <div class="texto animate__animated animate__fadeInDown">
+          <h1>¡Bienvenido! <span id="usuario-2"></span>.</h1>
+          <p>Aquí encontrarás todo sobre los cursos que te ayudarán a convertirte en un desarrollador de videojuegos.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cursos">
+    <h1>Nuestros Cursos</h1>
+    <div class="cartas">
+      <div class="card" style="width: 18rem;">
+        <img src="https://preview.redd.it/31b2ii8hchi31.jpg?auto=webp&s=309fe75e96212cf42c4120ca5adedaef52c41e01" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">C++</h5>
+          <p class="card-text">Este lenguaje de programación es uno de los más utilizados en el sector por profesionales. Se utiliza en videojuegos para PlayStation y Xbox, y en juegos independientes. </p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://rafaelsantiagocruz.com/wp-content/uploads/2020/12/c-sharp-Rafael-Santiago.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">C Sharp</h5>
+          <p class="card-text">Con este lenguaje se pueden crear juegos para iOS, Android, Windows Play Station y Xbox. Es un lenguaje más fácil de aprender que el C++.  </p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.blogs.es/8d2420/650_1000_java/1366_2000.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Java</h5>
+          <p class="card-text">Se trata de un lenguaje frecuentemente utilizado y presenta muchas similitudes con C++. Su principal característica es la versatilidad.</p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+    </div>
+    <div class="cartas">
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.devacademy.es/wp-content/uploads/2018/10/python-logo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Python </h5>
+          <p class="card-text">Python es un lenguaje muy flexible y potente para esto. Su ejecución es mucho más simple que la de otros lenguajes.</p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://www.pngkey.com/png/detail/275-2752575_ue4-logo-unreal-engine-logo-png.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Unreal engine</h5>
+          <p class="card-text">Unreal Engine, también conocido como UE, es una herramienta creada por el desarrollador de juegos Epic Games, en la que se puede construir una simulación.</p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://preview.redd.it/vtzpl5c9yd181.png?width=512&format=png&auto=webp&s=d0ce01fbd57c089dc06a2cc2c1252a6da7e4658a" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Unity</h5>
+          <p class="card-text">Es una herramienta que te permite crear videojuegos para diversas plataformas (PC, videoconsolas, móviles, etc.) mediante un editor visual y programación via scripting.</p>
+          <a href="#" class="boton-1">Ir al curso</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="precios">
+    <h1>Nuestros Planes</h1>
+    <div class="contenedor-precios">
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Gratis</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>Puedes comenzar una prueba de un mes totalmente gratis con solamente 3 cursos, C++, C# y Java. Pero sin certificación</p>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">¡Aplica Ya!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$55.000</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>Este plan solo trae 4 cursos, pero la ventaja es que los puedes seleccionar y aprender cuando quieras donde quieras.</p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">¡Comencemos!</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Premium</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$135.000</h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <p>Con este plan, recibirás todos los cursos durante un año y estarás certificado para cada curso. ¿Que estas esperando?.</p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">¡Unete ya!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+ </div>
+
+  <footer class="pie-pagina">
+    <div class="contenedor-footer">
+      <div class="logo-footer">
+        <img src="../Assets/icono2.svg" alt="">
+        <h3>Game Zone Technologies</h3>
+      </div>
+      <div class="contenido-footer-text">
+        <h2>Nuestro Proposito</h2>
+        <p>El objetivo de esta empresa es inspirar a todas las personas de todas las edades que estén interesadas en la tecnología y los videojuegos a participar en este gran proyecto y así encontrar un futuro laboral en la industria de los videojuegos.</p>
+      </div>
+      <div class="nuestras-redes">
+        <h2>Nuestras Redes</h2>
+        <div class="imagenes-redes">
+          <ul>
+            <li><a href="https://github.com/JoseDanielR18" target="_blank"><img src="../Assets/git.svg" alt=""></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100087450055080" target="_blank"><img src="../Assets/facebook.svg" alt=""></a></li>
+            <li><a href="https://www.instagram.com/game_zone_technologies/" target="_blank"><img src="../Assets/instagram.svg" alt=""></a></li>
+            <li><a href="https://twitter.com/GameZoneTechno" target="_blank"><img src="../Assets/twitter.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="derechos-reservados">
+      <small><b>Proyecto Final Jóvenes Creativos </b> | &copy;2022 Jose Daniel Rodríguez Bedoya</small>
+    </div>
+  </footer>
+
+</body>
+</html>

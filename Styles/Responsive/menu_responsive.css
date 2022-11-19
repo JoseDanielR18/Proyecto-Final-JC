@@ -44,6 +44,14 @@
   .inicio-sesion a{
     font-size: 12px;
   }
+
+  .inicio-sesion li:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .inicio-sesion img {
+    width: 30px;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -53,5 +61,17 @@
   
   .inicio-sesion a{
     font-size: 10px;
+  }
+
+  .inicio-sesion li {
+    padding: 5px;
+  }
+  
+  .inicio-sesion li:nth-child(2) {
+    font-size: 10px;
+  }
+
+  .inicio-sesion img {
+    width: 20px;
   }
 }
